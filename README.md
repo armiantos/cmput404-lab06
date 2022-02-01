@@ -10,3 +10,13 @@
    ```sh
    python manage.py runserver
    ```
+
+## Maintenance
+
+Questions and choices under `/polls` can be created by a super user. This super user can be created by running
+
+```sh
+python manage.py createsuperuser
+```
+
+You should enter the desired user credentials. You can test this credentials by vising the admin page at [localhost:8000/admin](localhost:8000/admin).
